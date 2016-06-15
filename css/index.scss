@@ -1,0 +1,68 @@
+%rest{
+margin:0;	
+padding:0;
+}
+body{
+	@extend %rest;
+}
+ul,li,j1,h2,h3,h4,h5,h6{
+	@extend %rest;
+}
+a{
+	list-style:none;
+}
+body{
+	/* background:url(../image/bodybj.jpg)	;
+	animation:cu 300s linear infinite; */
+}
+#canvas{
+	border:1px solid red;
+	margin:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+@keyframes cu{
+	from{
+	background-position:0 0;
+	}
+	to{
+	background-position:-10000px 0;
+	}
+}
+.tips{
+	width:500px;
+	height:500px;
+	background:rgba(22,22,22,0.5);
+	position:absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	margin-left:-600px;
+	transition:all 0.5s ease;
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+	line-height:500px;
+}
+.neirong{
+		width:200px;
+		height:50px;
+		background:rgba(22,22,22,0.5);
+		font-size:30px;
+		line-height:50px;
+		color:#fff;
+		text-align: center;
+		position:absolute;
+	margin:auto;
+	bottom:0;
+	left:0;
+	margin-bottom:100px;
+	margin-left:-600px;
+	transition:all 0.5s ease;
+
+
+	} 
